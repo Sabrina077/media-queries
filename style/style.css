@@ -1,0 +1,46 @@
+.menuBurger{
+    width: 50px;
+    height: 50px;
+}
+    
+
+.premiereimage{
+    
+    height: 400px;
+    background-image:url(../images/femme.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+@media screen and (max-width:400px){ 
+    h1{
+        display: none;
+    }
+    ul{
+        display: none;
+
+    }
+}
+
+ /* format téléphone  */
+    
+ @media screen and (min-width:401px) and (max-width:800px){ 
+    .premiereimage{
+        background-image:url(../images/plan.jpg);
+    }
+    ul{display: none;}
+}
+
+@media screen and (min-width:801px)
+{ .menuBurger{
+    display: none;
+}
+
+}
+
+
